@@ -39,7 +39,7 @@ You define regions for discovering fusion transcripts in scRNA-seq. Not based on
 The output file has one line for each read coming from a chimeric transcript.
 
 For detect_discordant_reads.py, the output file is  `{output_dir}/{output_prefix}.discordant_reads.tsv`.
-For discover_discordant_reads.py, the output file ends with `{output_dir}/{output_prefix}.discovered_discordant_reads.tsv`.
+For discover_discordant_reads.py, the output file is `{output_dir}/{output_prefix}.discovered_discordant_reads.tsv`.
 
 ### Output file column names
 
