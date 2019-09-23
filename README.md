@@ -7,7 +7,7 @@ The main idea of the software is to find transcripts with reads that map to diff
 
 ### detect_discordant_reads.py
 ```{python}
-python detect_discordant_reads.py star-fusion_output_file scRNA-seq.bam output_dir output_prefix region_plusminus
+python detect_discordant_reads.py star-fusion_output_file scRNA-seq.bam output_dir output_prefix region_plusminus min_mapq
 ```
 Uses STAR-Fusion output from bulk RNA-seq as starting point for where to look for fusion transcripts in scRNA-seq.
 
@@ -22,7 +22,7 @@ Uses STAR-Fusion output from bulk RNA-seq as starting point for where to look fo
 
 ### discover_discordant_reads.py
 ```{python}
-python discover_discordant_reads.py scRNA-seq.bam chrA:pos-pos chrB:pos-pos output_dir output_prefix
+python discover_discordant_reads.py scRNA-seq.bam chrA:pos-pos chrB:pos-pos output_dir output_prefix min_mapq
 ```
 You define regions for discovering fusion transcripts in scRNA-seq. Not based on STAR-Fusion results.
 
