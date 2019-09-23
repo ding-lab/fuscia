@@ -1,5 +1,6 @@
 # Script to discover transcripts with reads mapping to different chromosomes from 10X single cell RNA-seq data
-# Usages: python detect_discordant_reads.py scRNA-seq.bam output_dir chrA:pos-pos chrB:pos-pos output_dir output_prefix
+# Usages: python discover_discordant_reads.py scRNA-seq.bam chrA:pos-pos chrB:pos-pos output_dir output_prefix min_mapq
+# Author: Steven Foltz (June 2019)
 
 import os
 import pysam

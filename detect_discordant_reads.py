@@ -1,5 +1,6 @@
 # Script to detect discordant reads from 10X single cell RNA-seq data
-# Usages: python detect_discordant_reads.py star-fusion_output_file scRNA-seq.bam output_dir output_prefix region_plusminus
+# Usages: python detect_discordant_reads.py star-fusion_output_file scRNA-seq.bam output_dir output_prefix region_plusminus min_mapq
+# Author: Steven Foltz (June 2019)
 
 import os
 import pysam
