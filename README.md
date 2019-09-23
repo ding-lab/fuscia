@@ -54,3 +54,6 @@ For discover_discordant_reads.py, the output file ends with `{output_dir}/{outpu
 os
 pysam
 sys
+
+## Author information
+Steven Foltz (github username [envest](https://github.com/envest))
