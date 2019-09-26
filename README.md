@@ -46,8 +46,8 @@ For discover_discordant_reads.py, the output file is `{output_dir}/{output_prefi
 * cell_barcode (cell the read originated from)
 * molecular_barcode (molecule the read originated from)
 * chrom (chromosome of read)
-* start (start of read)
-* end (end of read)
+* start (start of read base pair mapping position)
+* end (end of read base pair mapping position)
 * fusion (detect_discordant_reads.py only -- corresponding bulk RNA-seq fusion called by STAR-Fusion)
 
 ## Imports
@@ -56,4 +56,4 @@ pysam
 sys
 
 ## Author information
-Steven Foltz (github username [envest](https://github.com/envest))
+Steven Foltz ([github: envest](https://github.com/envest))
